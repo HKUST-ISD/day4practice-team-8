@@ -6,7 +6,7 @@
 Servo servo; // Create servo object
 String command; // using string to store the message receive from serial monitor
 // Define the pins where the servo are connected
-const int PWMpin = 13;
+const int PWMpin = 4;
 
 void setup() {
 servo.attach(PWMpin); // Servo object servo should be attached to a ESP32 PWM pin
